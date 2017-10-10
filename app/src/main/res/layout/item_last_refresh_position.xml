@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_record_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/refresh_record_color"
+    android:padding="@dimen/dp8"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/last_refresh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/ic_refresh"
+        android:gravity="center"
+        android:drawablePadding="@dimen/dp7"
+        android:textColor="@color/news_tag_border_blue"
+        android:textSize="@dimen/sp15">
+    </TextView>
+</LinearLayout>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_bg">#F3F5F4</color>
+    <color name="status_color_red">#D33D3C</color>
+    <color name="status_color_grey">#BDBDBD</color>
+    <color name="status_color_white">#ffffff</color>
+    <color name="selector_grey">#dddddd</color>
+    <color name="common_grey">#515051</color>
+    <color name="white">#ffffff</color>
+    <color name="add_bg_normal">#ffffff</color>
+    <color name="text_color">#333333</color>
+    <color name="img_bg_click_color">#888788</color>
+    <color name="news_title_color">#ff222222</color>
+    <color name="text_grey">#aeaeae</color>
+    <color name="news_tag_border_red">#F96B6B</color>
+    <color name="light_font_color">#ff999999</color>
+    <color name="translucent">#61000000</color>
+    <color name="pull_refresh_bg">#F3F5F4</color>
+    <color name="news_tag_border_blue">#3091D8</color>
+    <color name="refresh_record_color">#f1f1f1</color>
+    <color name="divider">#ffd8d8d8</color>
+</resources>

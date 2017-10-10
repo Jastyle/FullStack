@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    tools:context=".ui.activity.MainActivity">
+
+    <com.jastyle.fullstack.ui.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.jastyle.fullstack.ui.view.NoScrollViewPager>
+
+    <com.jastyle.fullstack.ui.view.bottombar.BottomBarLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clipChildren="false"
+        android:background="@color/tab_bg">
+
+        <com.jastyle.fullstack.ui.view.bottombar.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:itemText="@string/home_page"
+            app:iconSelected="@mipmap/tab_home_selected"
+            app:iconNormal="@mipmap/tab_home_normal"
+            app:textColorSelected="@color/status_color_red"
+            app:textColorNormal="@color/common_grey"
+            app:itemMarginTop="-5dp"
+            app:itemTextSize="8sp"
+            app:touchDrawable='@drawable/selector_bottom_tab'
+            app:openTouchBg="true">
+
+        </com.jastyle.fullstack.ui.view.bottombar.BottomBarItem>
+
+        <com.jastyle.fullstack.ui.view.bottombar.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:itemText="@string/video_page"
+            app:iconSelected="@mipmap/tab_video_selected"
+            app:iconNormal="@mipmap/tab_video_normal"
+            app:textColorSelected="@color/status_color_red"
+            app:touchDrawable='@drawable/selector_bottom_tab'
+            app:textColorNormal="@color/common_grey"
+            app:itemMarginTop="-5dp"
+            app:itemTextSize="8sp"
+            app:openTouchBg="true">
+
+        </com.jastyle.fullstack.ui.view.bottombar.BottomBarItem>
+        <com.jastyle.fullstack.ui.view.bottombar.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            app:textColorSelected="@color/status_color_red"
+            android:clickable="true"
+            app:isNeedSrc="false"
+            app:textColorNormal="@color/common_grey"
+            app:itemMarginTop="25dp">
+
+        </com.jastyle.fullstack.ui.view.bottombar.BottomBarItem>
+        <com.jastyle.fullstack.ui.view.bottombar.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:itemText="@string/micro_page"
+            app:iconSelected="@mipmap/tab_micro_selected"
+            app:iconNormal="@mipmap/tab_micro_normal"
+            app:textColorSelected="@color/status_color_red"
+            app:touchDrawable='@drawable/selector_bottom_tab'
+            app:textColorNormal="@color/common_grey"
+            app:itemMarginTop="-5dp"
+            app:itemTextSize="8sp"
+            app:openTouchBg="true">
+
+        </com.jastyle.fullstack.ui.view.bottombar.BottomBarItem>
+
+        <com.jastyle.fullstack.ui.view.bottombar.BottomBarItem
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:itemText="@string/me_page"
+            app:iconSelected="@mipmap/tab_me_selected"
+            app:iconNormal="@mipmap/tab_me_normal"
+            app:textColorSelected="@color/status_color_red"
+            app:touchDrawable='@drawable/selector_bottom_tab'
+            app:textColorNormal="@color/common_grey"
+            app:itemMarginTop="-5dp"
+            app:itemTextSize="8sp"
+            app:openTouchBg="true">
+
+        </com.jastyle.fullstack.ui.view.bottombar.BottomBarItem>
+
+    </com.jastyle.fullstack.ui.view.bottombar.BottomBarLayout>
+
+</LinearLayout>

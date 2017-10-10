@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp10"
+    android:orientation="horizontal">
+
+    <com.jastyle.fullstack.ui.view.BorderTextView
+        android:id="@+id/tag_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top"
+        android:textColor="@color/news_tag_border_red"
+        android:textSize="@dimen/sp9" />
+
+    <TextView
+        android:id="@+id/source_tv"
+        style="@style/news_text_style"
+        android:layout_marginLeft="@dimen/dp5"
+        android:text="@string/motto"
+        android:textColor="@color/light_font_color" />
+
+    <TextView
+        android:id="@+id/num_tv"
+        style="@style/news_text_style"
+        android:layout_marginLeft="@dimen/dp5"
+        android:text="5评论"
+        android:textColor="@color/light_font_color" />
+
+    <TextView
+        android:id="@+id/time_tv"
+        style="@style/news_text_style"
+        android:layout_marginLeft="@dimen/dp5"
+        android:textColor="@color/light_font_color" />
+</LinearLayout>

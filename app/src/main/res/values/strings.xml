@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FullStack</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="home_page">首页</string>
+    <string name="motto">你关心的才是头条</string>
+    <string name="top">置顶</string>
+    <string name="net_error_msg">网络不给力</string>
+    <string name="refresh_pull_down_text">下拉推荐</string>
+    <string name="refresh_release_text">松开推荐</string>
+    <string name="refresh_ing_text">推荐中</string>
+    <string name="comment">评论</string>
+    <string name="ad">广告</string>
+    <string name="last_refresh_tips">看到这里  点击刷新</string>
+    <string name="no_comment">暂无评论，点击抢沙发</string>
+    <string name="video_page">西瓜视频</string>
+    <string name="micro_page">微头条</string>
+    <string name="me_page">我</string>
+
+</resources>

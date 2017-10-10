@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.jastyle.fullstack.ui.view.refreshlayout.BGARefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.jastyle.fullstack.ui.view.powerfulrecyclerview.PowerfulRecyclerView
+            android:id="@+id/news_prl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:dividerMarginLeft="@dimen/dp10"
+            app:dividerMarginRight="@dimen/dp10"
+            app:dividerSize="0.5dp"
+            app:dividerColor="@color/divider">
+
+        </com.jastyle.fullstack.ui.view.powerfulrecyclerview.PowerfulRecyclerView>
+    </com.jastyle.fullstack.ui.view.refreshlayout.BGARefreshLayout>
+
+
+</LinearLayout>
